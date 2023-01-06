@@ -1,0 +1,10 @@
+version: '3.2'
+
+services:
+  jssh:
+    build: .
+#    ports:
+#      - "2181:2181"                 ## 对外暴露的端口号
+#      - "21051:21051"
+#      - "27019:27019"
+    network_mode: host
