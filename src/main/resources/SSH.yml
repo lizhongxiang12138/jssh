@@ -9,6 +9,16 @@ dbs:
   - rhost: 172.18.8.2
     rport: 21050
     lport: 21051
+  - rhost: 172.18.8.2
+    rport: 8106
+    lport: 8106
+  - rhost: 172.18.5.7
+    rport: 27017
+    lport: 27019
+  - rhost: 172.17.115.8
+    rport: 3306
+    lport: 3307
+
 #  - rhost: 192.168.12.17
 #    rport: 27017
 #    lport: 27019
